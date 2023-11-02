@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<!-- My third html page-->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<meta name="author" content="Desmond Zeh">
+<meta name="description"
+	content="This program is all about sizing instrument transformers for metering systems. It does not covers all the auxiliaries needed for a proper sizing of current transformers for a metering system, but it gives insights on the most necessary points to be considered when selecting these transformers.">
+<title>
+	Instrument transformers
+</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Gelasio:ital@1&family=Lisu+Bosa:ital@1&family=Old+Standard+TT:ital@1&display=swap"
+	rel="stylesheet">
+<link href="style.css" 
+	rel="stylesheet" >
+</head>
+<body>
+<header>
+	<h1>
+	<strong>Energy metering system</strong>
+</h1>
+</header>
+<!--My main navigation items-->
+	<nav>
+		<ul>
+			<li id="home"><a href="#">Home</a></li>
+                         <li><a href="#">Downloads</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Project</a></li>
+			<li id="myDoc"><a href="#">Documents</a></li>
+		</ul>
+	<form>
+		<input type="search" name='q' placeholder="search query">
+		<input type="submit" value="Valid">
+	</form>
+	</nav>
+	<!--This is my main program-->
+	<main>
+		<article>
+	<h2><div style="text-align:center">
+	<strong>C. Some tips relating to metering system’s problem mitigations</strong></div>
+</h2>
+<p>
+	In the course of eliminating metering system’s problems, the following useful points can be helpful:</br>
+<ol>
+<li><spam style="color:blue">
+	<strong>Current transformers</strong>
+</spam></li>
+Control and inspect the current circuit of the metering system as follows:</br>
+1. Conduct a visual inspection test on the CTs and ensure that they’re no burnt terminals,or loose contacts.</br>
+2. Verify and ensure that the CTs are properly installed and the directions of the terminals labeled P1, P2, S1 and S2 are respected.</br>
+3. Conduct a continuity test on the CTs secondary windings (this will give the value of the secondary winding resistance of each CT).</br>
+4. Conduct a continuity test on the cables linking the CTs with the energy meter.</br>
+5. Verify and ensure that the terminal labeled S2 of each CT is properly grounded.</br>
+6. Conduct a transformation ratio test on each CT using a Digital Transformer Ratiometer (DTR) while taking into account the following important parameters:</br>
+- The transformation ratio obtained which shouldn’t be different from the physical ratio of the CT by ±1%.</br>
+- The deviation in % shouldn’t be greater than the accuracy class of the CT. A transformation ratio test with a 0.00% deviation is just perfect.</br>
+- The excitation current which passes through the primary (H) winding of the CT under test with a negligible load current shouldn’t be greater 100mA.</br>
+7. Check the distance between the meter and CTs to ensure it correspond to the distance required for secondary current of the CTs. That is, 5A for distance below 10m and 1A for distance above 10m.</br>
+8. Verify and ensure that the meter and other units connected to the CTs are in series with each other and not in parallel. This is done in order to avoid current division which will greatly distort the meter readings.</br>
+9. Verify and ensure that the nominal current of the load to which the CTs are installed is at less than 125% of primary rating of the CTs while taking into account a burden of 0.5VA of meter(incase of Itron SL7000 meter).</br>
+10. Check the CTs accuracy classes to ensure that the CTs installed are metering class (0.2, 0.5, 1) CTs and not protection class CTs. </br>
+11. For combined measurement and protection CTs, check to ensure that the terminals are properly cabled. Most often, the terminals labeled 1S1, 1S2 are used for metering while 2S1, 2S2 are for protection.</br>
+12. Check the C.S.A of the copper cables linking the CTs with the energy meter to ensure that they correspond to the cable size(6mm<sup>2</sup>) required for the connection of current circuits of energy meters.</br>
+<li><spam style="color:blue">
+	<strong>Voltage transformers</strong>
+</spam></li>
+Control and inspect the voltage circuit of the metering system as follows:</br>
+1. Conduct a visual inspection test on the VTs and ensure that they’re no burnt terminals,or loose contacts.</br>
+2. Verify and ensure that the VTs are properly installed and the directions of the terminals labeled P1, P2, S1 and S2 are respected.</br>
+3. Conduct a continuity test on the VTs secondary windings (this will give the value of the secondary winding resistance of each VT).</br>
+4. Conduct a continuity test on the cables linking the VTs with the protective fuses or circuit breaker protecting the voltage circuit of the meter.</br>
+5. Verify and ensure that the terminals labeled P2 and S2 of each VT are properly grounded.</br>
+6. Conduct a turns ratio test on each VT using a Digital Transformer Ratiometer (DTR) while taking into account the following important parameters:</br>
+  - The turn ratio obtained which shouldn’t be different from the physical ratio of the VT by ±1%.</br>
+  - The deviation in % shouldn’t be greater than the accuracy class of the VT. A turn ratio test with a 0.00% deviation is just perfect.</br>
+  - The excitation current which passes through the primary winding terminals (P1 and P2) of the VT under test with a negligible load current shouldn’t be greater 100mA.</br>
+7. Measure the insulation resistance of each VT using an appropriate measuring instrument (e.g Megohmmeter C.A 6545) between the following terminals:</br>
+  - The primary terminal (P1) and the secondary terminal (S1).</br>
+  - The primary terminal (P1) and the ground terminal.</br>
+  - The secondary terminal (S1) and the ground terminal.</br>
+<strong>NB: 1kV=1MΩ</strong></br>
+8. Control and inspect the protective device of the voltage circuit. In case of protective fuses, measure the continuity of the fuses using a multimeter. While for a protective circuit breaker, close the breaker and test its continuity using a multimeter.Also, verfy the rating of the fuses or circuit breaker.</br>
+9. Control and inspect the copper cables leaving the protective device to the meter to ensure they are no cuts on any of the cables.</br>
+<li><spam style="color:blue">
+	<strong>Energy meter (Itron SL7000)</strong>
+</spam></li>
+Control and inspect the voltage and current circuits of the metering system as follows:</br>
+  1. Conduct a visual inspection test on the meter and ensure that they’re no burnt terminals,or loose contacts.</br>
+  2. Verify if the manner in which the meter terminals are connected to the voltage and current circuits correspond to the single-line daigram found behind the terminal plastic cover.</br>
+  3. Verify and analyse the behavour of the following annunciator icon indicators found on the LCD display:</br>
+   - The lithium battery icon which blinks when the measured battery voltage is lower than the programmed threshold, when the battery is not properly connected, when the cumulative power failure duration exceeds three years or when the battery operating duration exceed ten years. If any of the above points apart from poor connection is true, then you have to replace the battery and reconfigure its capacity threshold and expiry date in the meter using the approved software.</br>
+   - The alarm icon which blinks when the meter has detected an active alarm condition. Use the <strong>ACE PILOT</strong> software to analyse the alarm status and then erase it if possible.</br>
+   - The excess demand icon which indicates when the calculated demand value is higher than the programmed threshold. Modify the threshold value of the meter or reduce the loads on the meter.</br>
+   - The phase sequence icons (123), where each of the three icons represents a connected phase.</br>
+   - If a phase is missing, the associated icon is not lit.</br>
+   - If voltage sags or swells occur on a phase, the associated icon will blink.Control the cable of the missing phase and ensure that its continuity is good.</br>
+   - The quadrant with four individual arrow icons indicating the direction and type of the energy currently measured by the meter.</br>
+          1. Active and Reactive.</br>
+          2. Import and Export.</br>
+   - If the incoming supply phase-sequence is incorrect (e.g. 1,3,2) these icons flash. Control and inspect the phase-sequence of the meter.</br>
+10. Verify the nine digits error code of the energy meter knowing that under normal operation, the nine digits are all zeros. If any of the digit changes from zero to a different digit or letter, use the <strong>ACE PILOT</strong> software to analyse the error status and then erase its corresponding alarm if possible.</br>
+11. Finally, perform an error test on the energy meter using a <strong>moving test meter MT680s (compteur etalon)</strong> while taking into account the error of the MT680s meter (0.1%), energy meter (0.5% for SL7000 meters), that of the CTs and PTs if used, cables and other miscellaneous. Thus in overall, an error test of not more than 1.5% is accepted. If the result of the error test yields above 1.5%, then the energy meter has an internal problem and should be replaced provided the instrumentation circuitries (CTs and PTs) are still in good shape.</br>
+In conclusion, metering system's components should be sized and installed by well trained technicians. Inspections and diagnosis of the metering components should be carried out regularly by qualified technicians.</p>
+</ol>
+For more information on ITRON SL7000 energy meters, check out at:<a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjG2an7tZOCAxVwhP0HHfoIDMAQFnoECA4QAQ&url=https%3A%2F%2Fwww.otec.com.ua%2Fshow_catalogue_pdf%2F245372%2F1&usg=AOvVaw1ZlvDOHSkQ7qQsW2cNeqsZ&opi=89978449"
+>ITRON SL7000 installation guide</a></br>			     
+<spam style="color:purple">
+	<strong>By Desmond Zeh</strong>
+</spam></br>
+</p>
+</article>
+</main>
+<script src="main.js" differ></script>
+<!---My google translator code-->
+  <div id="google_translate_element"></div>
+	
+	<script type="text/javascript" >
+		function googleTranslateElementInit() {
+			new google.translate.TranslateElement(
+				{pageLanguage: 'en'},
+				'google_translate_element'
+			);
+		}
+	</script>
+	
+	<script type="text/javascript" src=
+"https://translate.google.com/translate_a/element.js?
+		cb=googleTranslateElementInit">
+	</script>
+	
+	<!--My main footer item-->
+	<footer>
+		<p>It is your <strong>attitude</strong>, and not your <strong>aptitute</strong> that determines your <strong>altitude</strong>.</p>
+	</footer>
+</body>
+</html>
